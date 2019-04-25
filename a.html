@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <title>creating web pages - html</title>
+  <!-- 웹페이지의 제목 설정 -->
+  <meta charset="utf-8">
+  <!-- 관용구처럼 사용 utf-8로 만들어진 웹이므로 utf-8로 열게 함
+  본문이 utf-8로 저장되어있다는 것을 표현합니다.-->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139029804-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-139029804-1');
+  </script>
+  <!-- 방문자 기록 태그 -->
+</head>
+<body>
+  <h1><a href="index.html">WEB1</a></h1>
+  <ol>
+    <li><a href="a.html">creating web pages</a></li>
+    <li><a href="b.html">youtube</a></li>
+  </ol>
+
+  <h2>creating web pages</h2>
+  <!--h+숫자 태그를 사용하면 글씨가 두꺼워지고 줄바꿈이 됩니다.-->
+  <p><a href="https://www.opentutorials.org/course/3083" targer="_blank" title="생활코딩">생활코딩</a>을 보면서 웹을 만들어봤습니다.</p>
+  <!--a는 링크를 거는 태그로 anchor의 약자, href는 HyperText Reference의 약자입니다.
+  targer="_blank은 링크를 걸었을때 새창에서 페이지가 열리게 하는 속성입니다.
+  title은 이 링크가 어떤 내용을 담고 있는지를 툴립으로 보여주는 기능입니다.-->
+  <strong>strong 태그는 글씨를 진하게 강조합니다.</strong><br>
+  u 태그는 <u>밑줄</u>을 그을 수 있습니다.<br>
+  <p>줄바꿈을 하려면 <br> br 태그를 쓰면 됩니다. 더 띄고 싶으면 <br><br> 여러 번 쓰면 됩니다.</p>
+  <!--br 태그는 시각적인 의미만을 가지기 때문에 닫지 않습니다.-->
+  <p>p 태그는 <p>단락을 나눌때 사용합니다.</p>
+  br 태그 보다는 p 태그를 사용하는게 더 좋습니다. 왜냐하면 p 태그가 웹페이지를 정보로서 보다 더 가치있게 해주기 때문입니다.
+  어디서부터 어디까지가 단락인지 알 수 있기 때문입니다.</p>
+  또<p style="margin-top:50px;"> 단락을 원하는 만큼 떨어뜨릴 수 있습니다.</p>
+  <p>이미지 삽입하는 방법
+  <img src="coding.jpg" width="100%"></p>
+  <!--img 태그에 속성을 추가할 수 있습니다.
+  src의 속성 값으로 이미지 파일의 이름만 적어주면 됩니다.
+  width의 속성 값으로 숫자나 %를 사용하면 원하는 크키로 조정할 수 있습니다.-->
+</body>
+</html>
